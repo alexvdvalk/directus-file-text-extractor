@@ -1,7 +1,8 @@
 {
   "name": "directus-file-text-extractor",
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts"
   },
   "dependencies": {
     "@directus/sdk": "^21.3.0",
