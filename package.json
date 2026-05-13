@@ -1,0 +1,17 @@
+{
+  "name": "directus-file-text-extractor",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@directus/sdk": "^21.3.0",
+    "@hono/zod-validator": "^0.8.0",
+    "hono": "^4.12.18",
+    "mammoth": "^1.12.0",
+    "pdf-parse": "^2.4.5",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
